@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg, rgb(38, 88, 104), lightgreen, lightpink, orange);
+    animation: animarfondo 5s ease infinite;
+    min-height: 100vh;
+    background-attachment: fixed;
+    margin: 0;
+    background-size: 200% 200%;
+}
+@keyframes animarfondo {
+    0%{background-position: 0% 50%;}
+    50%{background-position: 100% 50%;}
+    75%{background-position: 25% 75%;}
+    100%{background-position: 0% 50%;}
+    
+}
+h1{
+    text-align: center;
+    font-family: fantasy;
+    color: lightblue;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 20px;
+    gap: 5px;
+    box-shadow: 0 0 15px navy;
+}
+.boton{
+    cursor: pointer;
+    color: rgb(122, 122, 134);
+    border-radius: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5x;
+}
+.boton:hover{
+    background-color: bisque;
+    color: gold;
+}
+.contenedor{
+    margin: 5px;
+    background-color: rgb(74, 35, 137);
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 20px burlywood ;
+}

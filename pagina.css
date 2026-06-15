@@ -1,0 +1,132 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+
+    background: radial-gradient(circle, rgba(189,106,139,1) 0%, rgba(202,209,232,1) 100%);
+    background-size:200% 200%;
+    animation:animarfondo 5s ease infinite;
+}
+
+@keyframes animarfondo{
+    0%{background-position:0% 50%;}
+    50%{background-position:100% 50%;}
+    100%{background-position:0% 50%;}
+}
+
+header{
+    text-align:center;
+    padding:20px;
+    background:linear-gradient(90deg, rgb(33,69,124), rgb(20,40,80));
+    box-shadow:0 0 10px #647277;
+}
+
+.universidad{
+    color:white;
+    font-size:28px;
+}
+
+.titulo{
+    color:#00FFFF;
+    text-shadow:
+    0 0 10px #4c6666,
+    0 0 20px #001aff,
+    0 0 40px #00FFFF;
+}
+
+nav{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    padding:15px;
+    background-color:rgba(0,0,0,0.2);
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#00FFFF;
+}
+
+
+section{
+    width:80%;
+    margin:auto;
+    padding:20px;
+}
+
+section h2{
+    text-align:center;
+}
+
+.galeria{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.dj-card{
+    text-align:center;
+}
+
+.dj-card img{
+    width:180px;
+    height:180px;
+    object-fit:cover;
+    border-radius:10px;
+
+    box-shadow:0 0 10px rgba(0,0,0,0.4);
+}
+
+.dj-card h3{
+    margin-top:10px;
+}
+
+.footer{
+    background:#1a237e;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 40px;
+    margin-top:40px;
+}
+
+.redes-izquierda,
+.redes-derecha{
+    display:flex;
+    align-items:center;
+}
+
+.redes-izquierda a,
+.redes-derecha a{
+    color:white;
+    font-size:28px;
+    margin:0 10px;
+    transition:0.3s;
+}
+
+.redes-izquierda a:hover,
+.redes-derecha a:hover{
+    color:#00FFFF;
+    transform:scale(1.2);
+}
+
+.datos{
+    text-align:center;
+}
+
+.datos h3{
+    color:white;
+    margin-bottom:5px;
+}
+
+.datos p{
+    color:#FFD700;
+}
